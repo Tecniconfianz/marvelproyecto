@@ -1,9 +1,10 @@
+import Header from "../components/Header/Header";
+
 export default function Home() {
-    return(
+    return (
         <div>
-            <p>
-                Desde Home
-            </p>
+            <p>Estamos en Home</p>
+            <Header />
         </div>
     );
 }
